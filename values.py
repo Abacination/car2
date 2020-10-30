@@ -225,34 +225,34 @@ FW_VERSIONS = {
     ],
   },
   CAR.LEGACY_PREGLOBAL: {
+    # 2015 Subary Legacy Self
     # 2018 Subaru Legacy 2.5i Premium - UDM / @kram322
     # 2016 Subaru Legacy - UDM / @nort
-    # 2015 Subary Legacy Self
     # Ecu, addr, subaddr: ROM ID
     (Ecu.esp, 0x7b0, None): [
+      b'\x97D\x03',
       b'\x8b\x97D\x00',
       b'k\x97D\x00',
-      b'\x97D\x03',
     ],
     (Ecu.eps, 0x746, None): [
+      b'K\xb0\x00\x01',
       b'{\xb0\x00\x00',
       b'[\xb0\x00\x01',
-      b'K\xb0\x00\x01',
     ],
     (Ecu.fwdCamera, 0x787, None): [
+      b'\x00\x00c\x94\x1f@\x10\b',
       b'\x00\x00df\x1f@ \n',
       b'\x00\x00c\xb7\x1f@\x10\x16',
-      b'\x00\x00c\x94\x1f@\x10\b',
     ],
     (Ecu.engine, 0x7e0, None): [
+      b'\xa0\"@\x80\a',
       b'\xb5\"@p\a',
       b'\xab*@r\a',
-      b'\xa0\"@\x80\a',
     ],
     (Ecu.transmission, 0x7e1, None): [
+      b'\xbf\xf2\x00\x80\x00',
       b'\xbc\xf2\x00\x81\x00',
       b'\xbe\xf2\x00p\x00',
-      b'\xbf\xf2\x00\x80\x00',
     ],
   },
   CAR.OUTBACK_PREGLOBAL: {
